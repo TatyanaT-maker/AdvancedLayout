@@ -1,0 +1,14 @@
+.emoji_button{
+    background-color:hsla(0,0%,91.4%,.25);
+    border-radius: 1rem;
+    width: max-content;
+    height:max-content;
+    cursor: pointer;
+     justify-items: center;
+     align-items: center;
+     column-gap: 10px;
+     display:grid;
+     grid-template-columns: max-content 1fr;
+     padding: 7px 10px;
+      border: none;
+}

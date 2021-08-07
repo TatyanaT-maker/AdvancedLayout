@@ -1,0 +1,33 @@
+.footer{
+ 
+    display: grid;
+     align-items: center;
+     grid-auto-flow: column;
+     grid-auto-columns: 13rem 1fr 13rem;
+     width: 100%;
+  
+   }
+   
+   .copyright{
+     grid-column: 2;
+     color:orange;
+     justify-self: center;
+     display: grid;
+     justify-content: flex-end;
+     
+   }
+ 
+   .shared_icon{
+     grid-column: 1;
+     justify-self: flex-start;
+     display: grid;
+     align-items: center;
+     grid-auto-flow: column;
+     color: #fff;
+    
+   }
+   .shared_styles{
+     justify-self: flex-end;
+     width: 100%;
+   }
+ 
